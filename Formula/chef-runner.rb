@@ -2,9 +2,9 @@ require 'formula'
 
 class ChefRunner < Formula
   homepage 'https://github.com/mlafeldt/chef-runner'
-  url 'https://github.com/mlafeldt/chef-runner/archive/v0.1.1.zip'
+  url 'https://github.com/mlafeldt/chef-runner/archive/v0.1.2.zip'
   head 'https://github.com/mlafeldt/chef-runner.git'
-  sha1 'b65a88f86bf90558c6b01fee1ff361f9101bc034'
+  sha1 'c312422b010caa04a7a38abb5e255ae7139fc0ff'
 
   def install
     bin.install Dir['bin/chef-runner']
