@@ -2,15 +2,15 @@ require "formula"
 
 class ChefRunner < Formula
   homepage "https://github.com/mlafeldt/chef-runner"
-  version "0.8.0"
+  version "0.9.0"
 
   if Hardware.is_64_bit?
     url "https://github.com/mlafeldt/chef-runner/releases/download/v#{version}/chef-runner_#{version}_darwin_amd64.zip"
-    sha256 "ce62b5b731511977880c7c18f696e604dfd058921a6c74275b2199cacdf7a577"
+    sha256 "f135b5dd9df8af692c5a048d348d514d3db64615a17a72774b871e6fa7b7d3ba"
 
   else
     url "https://github.com/mlafeldt/chef-runner/releases/download/v#{version}/chef-runner_#{version}_darwin_386.zip"
-    sha256 "2cd9a6a539feeb3d8c372bdbf3b98a2bcd6c4f0c079156c62a1f42b0d5f1f2fa"
+    sha256 "ce0b959a11677f275dcdb628efc31b8458af2b3f4c790192b11e43e4485d03a1"
   end
 
   def install
