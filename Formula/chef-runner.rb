@@ -5,7 +5,7 @@ class ChefRunner < Formula
 
   bottle :unneeded
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url "https://github.com/mlafeldt/chef-runner/releases/download/v#{version}/chef-runner_#{version}_darwin_amd64.zip"
     sha256 "f135b5dd9df8af692c5a048d348d514d3db64615a17a72774b871e6fa7b7d3ba"
   else
