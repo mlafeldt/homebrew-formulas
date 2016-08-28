@@ -1,9 +1,9 @@
 class Chaosmonkey < Formula
-  desc     "Go client to the Chaos Monkey REST API"
+  desc     "Controlled failure injection with Chaos Monkey"
   homepage "https://github.com/mlafeldt/chaosmonkey"
-  version  "0.4.0"
+  version  "0.5.0"
   url      "https://github.com/mlafeldt/chaosmonkey/releases/download/v#{version}/chaosmonkey_darwin_amd64"
-  sha256   "e9c3a167b470341b7b867d6424df85515310cc9d32cb81e9fe5fa725384f1de5"
+  sha256   "512b6f17efb21acd3a160734c2e7da2699b2d2be1aa88a80cc907d1c6222cfcc"
 
   bottle :unneeded
 
