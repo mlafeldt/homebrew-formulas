@@ -1,4 +1,4 @@
-class Ck < Formula
+class Cktool < Formula
   desc     "The ConvertKit Tool"
   homepage "https://github.com/mlafeldt/ck"
   version  "0.1.0"
