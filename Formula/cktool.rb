@@ -1,9 +1,9 @@
 class Cktool < Formula
   desc     "The ConvertKit Tool"
   homepage "https://github.com/mlafeldt/ck"
-  version  "0.1.0"
+  version  "0.2.0"
   url      "https://github.com/mlafeldt/ck/releases/download/v#{version}/ck_darwin_amd64"
-  sha256   "461ce11f5a7ead74fb518e7c37bf859429d55180f1610e5ba47cd23fa507fd09"
+  sha256   "6f7d1e8ebed74cb3354cd48ad8eec33367ec2f8662976bef4c1c9b0287550e50"
 
   bottle :unneeded
 
