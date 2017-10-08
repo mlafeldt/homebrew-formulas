@@ -1,9 +1,9 @@
 class Chaosmonkey < Formula
   desc     "Controlled failure injection with Chaos Monkey"
   homepage "https://github.com/mlafeldt/chaosmonkey"
-  version  "0.5.1"
+  version  "0.5.2"
   url      "https://github.com/mlafeldt/chaosmonkey/releases/download/v#{version}/chaosmonkey_darwin_amd64"
-  sha256   "ecc47c050a27859a008ab08a61ba1943899ad8d8a274355628caed3b5b48233f"
+  sha256   "9823503ee3185221a623677cf0a7a6de4503aefcf7698436fb51052558a964ea"
 
   bottle :unneeded
 
